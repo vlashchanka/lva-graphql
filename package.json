@@ -1,0 +1,27 @@
+{
+  "name": "lva-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cluster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlashchanka/lva-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlashchanka/lva-graphql/issues"
+  },
+  "homepage": "https://github.com/vlashchanka/lva-graphql#readme",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "os": "^0.1.1"
+  }
+}
